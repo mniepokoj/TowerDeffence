@@ -1,0 +1,408 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki źródłowe">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Pliki zasobów">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\MojeFigury">
+      <UniqueIdentifier>{43c9fd5b-6aac-4f06-bb45-54c7afaad299}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\MojeFigury">
+      <UniqueIdentifier>{b89961a3-862a-442a-84d1-b349a46e9aeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Statyczne">
+      <UniqueIdentifier>{7715b692-7c91-47ce-a81b-9003c4ebc8bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Statyczne">
+      <UniqueIdentifier>{e5e59922-fd1d-47ff-b7db-985ee84e54a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Wieza">
+      <UniqueIdentifier>{811b7ad7-f9c4-4417-a0e3-bcd7d1f501f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Wieza">
+      <UniqueIdentifier>{0985a804-09de-4c0b-a3dd-da2ed855ea0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\MojeFigury\Prastakatne">
+      <UniqueIdentifier>{34558862-71b5-4e00-be39-cd116bd765c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\MojeFigury\Okragle">
+      <UniqueIdentifier>{3d07842b-5c89-4e92-bb87-32f9e74009f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\MojeFigury\Okragle">
+      <UniqueIdentifier>{ee89c9d8-aff2-4c47-946b-183b1e1b0ec1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\MojeFigury\Prastakatne">
+      <UniqueIdentifier>{03b12aa3-f373-48cd-8d7c-6b35a221ac22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Minion">
+      <UniqueIdentifier>{14fd9ccb-cbea-4431-9209-f1480b76b9b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Minion">
+      <UniqueIdentifier>{2cd58e3e-dca2-4b34-9f6e-09e39fcae301}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Zarzadca">
+      <UniqueIdentifier>{2c5dddeb-919c-43fc-bbbc-69379b82a3f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Zarzadca">
+      <UniqueIdentifier>{200f5fce-24cd-49c0-85c7-166d170f9544}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Esc">
+      <UniqueIdentifier>{d665374a-ec63-4c2a-9f91-31765b7f528b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\MojeFigury\Trojkat">
+      <UniqueIdentifier>{f772e038-4682-458a-a6d6-2b2442787b8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Stany">
+      <UniqueIdentifier>{1f0b5127-6dc2-4f3e-a108-9543091af86e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Pociski">
+      <UniqueIdentifier>{29c51ce1-505e-417c-bdb8-3451bb3f77e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Mapa">
+      <UniqueIdentifier>{b76ad532-b91a-4190-ac13-9d7639a991d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Fala">
+      <UniqueIdentifier>{01b93f8c-27ac-4838-b41c-745ae18d733e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Fala">
+      <UniqueIdentifier>{cf0eb1ea-02d9-480f-b97f-26aaf4d7999f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Stany">
+      <UniqueIdentifier>{197204f5-40e4-40eb-8040-21ab0c369821}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Pociski">
+      <UniqueIdentifier>{8e40c227-d201-4114-97b7-d8b7d4014375}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Esc">
+      <UniqueIdentifier>{180c1e36-3adf-44b7-8454-fd2173051ba4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Mapa">
+      <UniqueIdentifier>{e6825118-85d0-4895-8afa-5d5912c1d590}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\MojeFigury\Trojkaty">
+      <UniqueIdentifier>{b0066e00-7cd0-4305-9eff-9f365dea2b94}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Statyczne.h">
+      <Filter>Pliki nagłówkowe\Statyczne</Filter>
+    </ClInclude>
+    <ClInclude Include="StatyczneDzwieki.h">
+      <Filter>Pliki nagłówkowe\Statyczne</Filter>
+    </ClInclude>
+    <ClInclude Include="StatyczneTekstury.h">
+      <Filter>Pliki nagłówkowe\Statyczne</Filter>
+    </ClInclude>
+    <ClInclude Include="CzerwonaWieza.h">
+      <Filter>Pliki nagłówkowe\Wieza</Filter>
+    </ClInclude>
+    <ClInclude Include="Wieza.h">
+      <Filter>Pliki nagłówkowe\Wieza</Filter>
+    </ClInclude>
+    <ClInclude Include="ZoltaWieza.h">
+      <Filter>Pliki nagłówkowe\Wieza</Filter>
+    </ClInclude>
+    <ClInclude Include="ZielonaWieza.h">
+      <Filter>Pliki nagłówkowe\Wieza</Filter>
+    </ClInclude>
+    <ClInclude Include="NiebieskaWieza.h">
+      <Filter>Pliki nagłówkowe\Wieza</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimatedCircle.h">
+      <Filter>Pliki nagłówkowe\MojeFigury\Okragle</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Pliki nagłówkowe\MojeFigury\Okragle</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimatedOutLineStruct.h">
+      <Filter>Pliki nagłówkowe\MojeFigury\Okragle</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimatedOutlineCircle.h">
+      <Filter>Pliki nagłówkowe\MojeFigury\Okragle</Filter>
+    </ClInclude>
+    <ClInclude Include="ProstokatnePole.h">
+      <Filter>Pliki nagłówkowe\MojeFigury\Prastakatne</Filter>
+    </ClInclude>
+    <ClInclude Include="KrzyzykowePole.h">
+      <Filter>Pliki nagłówkowe\MojeFigury\Prastakatne</Filter>
+    </ClInclude>
+    <ClInclude Include="MojeFigury.h">
+      <Filter>Pliki nagłówkowe\MojeFigury\Prastakatne</Filter>
+    </ClInclude>
+    <ClInclude Include="OkraglePole.h">
+      <Filter>Pliki nagłówkowe\MojeFigury\Prastakatne</Filter>
+    </ClInclude>
+    <ClInclude Include="Pole.h">
+      <Filter>Pliki nagłówkowe\MojeFigury\Prastakatne</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>Pliki nagłówkowe\MojeFigury</Filter>
+    </ClInclude>
+    <ClInclude Include="Minion.h">
+      <Filter>Pliki nagłówkowe\Minion</Filter>
+    </ClInclude>
+    <ClInclude Include="ZarzadcaZdarzen.h">
+      <Filter>Pliki nagłówkowe\Zarzadca</Filter>
+    </ClInclude>
+    <ClInclude Include="ZarzadcaWszystkiego.h">
+      <Filter>Pliki nagłówkowe\Zarzadca</Filter>
+    </ClInclude>
+    <ClInclude Include="ZarzadcaWiez.h">
+      <Filter>Pliki nagłówkowe\Zarzadca</Filter>
+    </ClInclude>
+    <ClInclude Include="ZarzadcaStworow.h">
+      <Filter>Pliki nagłówkowe\Zarzadca</Filter>
+    </ClInclude>
+    <ClInclude Include="ZarzadcaStartu.h">
+      <Filter>Pliki nagłówkowe\Zarzadca</Filter>
+    </ClInclude>
+    <ClInclude Include="ZarzadcaPoziomu.h">
+      <Filter>Pliki nagłówkowe\Zarzadca</Filter>
+    </ClInclude>
+    <ClInclude Include="ZarzadcaPociskow.h">
+      <Filter>Pliki nagłówkowe\Zarzadca</Filter>
+    </ClInclude>
+    <ClInclude Include="ZarzadcaPlanszy.h">
+      <Filter>Pliki nagłówkowe\Zarzadca</Filter>
+    </ClInclude>
+    <ClInclude Include="ZarzadcaMapy.h">
+      <Filter>Pliki nagłówkowe\Zarzadca</Filter>
+    </ClInclude>
+    <ClInclude Include="ZarzadcaJedzenia.h">
+      <Filter>Pliki nagłówkowe\Zarzadca</Filter>
+    </ClInclude>
+    <ClInclude Include="ZarzadcaDzwiekow.h">
+      <Filter>Pliki nagłówkowe\Zarzadca</Filter>
+    </ClInclude>
+    <ClInclude Include="ESC.h">
+      <Filter>Pliki nagłówkowe\Esc</Filter>
+    </ClInclude>
+    <ClInclude Include="WybranyStwor.h">
+      <Filter>Pliki nagłówkowe\Esc</Filter>
+    </ClInclude>
+    <ClInclude Include="WyborWiez.h">
+      <Filter>Pliki nagłówkowe\Esc</Filter>
+    </ClInclude>
+    <ClInclude Include="WybranaBudowa.h">
+      <Filter>Pliki nagłówkowe\Esc</Filter>
+    </ClInclude>
+    <ClInclude Include="WybranaWieza.h">
+      <Filter>Pliki nagłówkowe\Esc</Filter>
+    </ClInclude>
+    <ClInclude Include="DefinicjePaskaWyboru.h">
+      <Filter>Pliki nagłówkowe\Esc</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle.h">
+      <Filter>Pliki nagłówkowe\MojeFigury\Trojkat</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexTriangle.h">
+      <Filter>Pliki nagłówkowe\MojeFigury\Trojkat</Filter>
+    </ClInclude>
+    <ClInclude Include="PomaranczowaWieza.h">
+      <Filter>Pliki nagłówkowe\Wieza</Filter>
+    </ClInclude>
+    <ClInclude Include="IkonaWiezy.h">
+      <Filter>Pliki nagłówkowe\Wieza</Filter>
+    </ClInclude>
+    <ClInclude Include="PasekZycia.h">
+      <Filter>Pliki nagłówkowe\Esc</Filter>
+    </ClInclude>
+    <ClInclude Include="PasekWyboru.h">
+      <Filter>Pliki nagłówkowe\Esc</Filter>
+    </ClInclude>
+    <ClInclude Include="Gra.h">
+      <Filter>Pliki nagłówkowe\Stany</Filter>
+    </ClInclude>
+    <ClInclude Include="KoniecPoziomu.h">
+      <Filter>Pliki nagłówkowe\Stany</Filter>
+    </ClInclude>
+    <ClInclude Include="RodzajPoziomu.h">
+      <Filter>Pliki nagłówkowe\Stany</Filter>
+    </ClInclude>
+    <ClInclude Include="ZwracanyTypPoziomu.h">
+      <Filter>Pliki nagłówkowe\Stany</Filter>
+    </ClInclude>
+    <ClInclude Include="TypWygladu.h">
+      <Filter>Pliki nagłówkowe\Esc</Filter>
+    </ClInclude>
+    <ClInclude Include="Wave.h">
+      <Filter>Pliki nagłówkowe\Fala</Filter>
+    </ClInclude>
+    <ClInclude Include="Pocisk.h">
+      <Filter>Pliki nagłówkowe\Pociski</Filter>
+    </ClInclude>
+    <ClInclude Include="Mapa.h">
+      <Filter>Pliki nagłówkowe\Mapa</Filter>
+    </ClInclude>
+    <ClInclude Include="Matematyka.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="OptimisedCirclePart.h">
+      <Filter>Pliki nagłówkowe\MojeFigury\Okragle</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Statyczne.cpp">
+      <Filter>Pliki źródłowe\Statyczne</Filter>
+    </ClCompile>
+    <ClCompile Include="StatyczneDzwieki.cpp">
+      <Filter>Pliki źródłowe\Statyczne</Filter>
+    </ClCompile>
+    <ClCompile Include="StatyczneTekstury.cpp">
+      <Filter>Pliki źródłowe\Statyczne</Filter>
+    </ClCompile>
+    <ClCompile Include="ZoltaWieza.cpp">
+      <Filter>Pliki źródłowe\Wieza</Filter>
+    </ClCompile>
+    <ClCompile Include="ZielonaWieza.cpp">
+      <Filter>Pliki źródłowe\Wieza</Filter>
+    </ClCompile>
+    <ClCompile Include="PomaranczowaWieza.cpp">
+      <Filter>Pliki źródłowe\Wieza</Filter>
+    </ClCompile>
+    <ClCompile Include="NiebieskaWieza.cpp">
+      <Filter>Pliki źródłowe\Wieza</Filter>
+    </ClCompile>
+    <ClCompile Include="KrzyzykowePole.cpp">
+      <Filter>Pliki źródłowe\MojeFigury\Prastakatne</Filter>
+    </ClCompile>
+    <ClCompile Include="OkraglePole.cpp">
+      <Filter>Pliki źródłowe\MojeFigury\Prastakatne</Filter>
+    </ClCompile>
+    <ClCompile Include="Pole.cpp">
+      <Filter>Pliki źródłowe\MojeFigury\Prastakatne</Filter>
+    </ClCompile>
+    <ClCompile Include="ProstokatnePole.cpp">
+      <Filter>Pliki źródłowe\MojeFigury\Prastakatne</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimatedCircle.cpp">
+      <Filter>Pliki źródłowe\MojeFigury\Okragle</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimatedOutlineCircle.cpp">
+      <Filter>Pliki źródłowe\MojeFigury\Okragle</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimatedOutLineStruct.cpp">
+      <Filter>Pliki źródłowe\MojeFigury\Okragle</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Pliki źródłowe\MojeFigury\Okragle</Filter>
+    </ClCompile>
+    <ClCompile Include="CzerwonaWieza.cpp">
+      <Filter>Pliki źródłowe\Wieza</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>Pliki źródłowe\Statyczne</Filter>
+    </ClCompile>
+    <ClCompile Include="Minion.cpp">
+      <Filter>Pliki źródłowe\Minion</Filter>
+    </ClCompile>
+    <ClCompile Include="ZarzadcaDzwiekow.cpp">
+      <Filter>Pliki źródłowe\Zarzadca</Filter>
+    </ClCompile>
+    <ClCompile Include="ZarzadcaJedzenia.cpp">
+      <Filter>Pliki źródłowe\Zarzadca</Filter>
+    </ClCompile>
+    <ClCompile Include="ZarzadcaMapy.cpp">
+      <Filter>Pliki źródłowe\Zarzadca</Filter>
+    </ClCompile>
+    <ClCompile Include="ZarzadcaPlanszy.cpp">
+      <Filter>Pliki źródłowe\Zarzadca</Filter>
+    </ClCompile>
+    <ClCompile Include="ZarzadcaPociskow.cpp">
+      <Filter>Pliki źródłowe\Zarzadca</Filter>
+    </ClCompile>
+    <ClCompile Include="ZarzadcaPoziomu.cpp">
+      <Filter>Pliki źródłowe\Zarzadca</Filter>
+    </ClCompile>
+    <ClCompile Include="ZarzadcaStartu.cpp">
+      <Filter>Pliki źródłowe\Zarzadca</Filter>
+    </ClCompile>
+    <ClCompile Include="ZarzadcaStworow.cpp">
+      <Filter>Pliki źródłowe\Zarzadca</Filter>
+    </ClCompile>
+    <ClCompile Include="ZarzadcaWiez.cpp">
+      <Filter>Pliki źródłowe\Zarzadca</Filter>
+    </ClCompile>
+    <ClCompile Include="ZarzadcaWszystkiego.cpp">
+      <Filter>Pliki źródłowe\Zarzadca</Filter>
+    </ClCompile>
+    <ClCompile Include="ZarzadcaZdarzen.cpp">
+      <Filter>Pliki źródłowe\Zarzadca</Filter>
+    </ClCompile>
+    <ClCompile Include="ESC.cpp">
+      <Filter>Pliki źródłowe\Esc</Filter>
+    </ClCompile>
+    <ClCompile Include="WybranyStwor.cpp">
+      <Filter>Pliki źródłowe\Esc</Filter>
+    </ClCompile>
+    <ClCompile Include="WyborWiez.cpp">
+      <Filter>Pliki źródłowe\Esc</Filter>
+    </ClCompile>
+    <ClCompile Include="WybranaBudowa.cpp">
+      <Filter>Pliki źródłowe\Esc</Filter>
+    </ClCompile>
+    <ClCompile Include="WybranaWieza.cpp">
+      <Filter>Pliki źródłowe\Esc</Filter>
+    </ClCompile>
+    <ClCompile Include="Gra.cpp">
+      <Filter>Pliki źródłowe\Stany</Filter>
+    </ClCompile>
+    <ClCompile Include="IkonaWiezy.cpp">
+      <Filter>Pliki źródłowe\Esc</Filter>
+    </ClCompile>
+    <ClCompile Include="KoniecPoziomu.cpp">
+      <Filter>Pliki źródłowe\Stany</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Pliki źródłowe\Stany</Filter>
+    </ClCompile>
+    <ClCompile Include="Mapa.cpp">
+      <Filter>Pliki źródłowe\Mapa</Filter>
+    </ClCompile>
+    <ClCompile Include="PasekWyboru.cpp">
+      <Filter>Pliki źródłowe\Esc</Filter>
+    </ClCompile>
+    <ClCompile Include="PasekZycia.cpp">
+      <Filter>Pliki źródłowe\Esc</Filter>
+    </ClCompile>
+    <ClCompile Include="Pocisk.cpp">
+      <Filter>Pliki źródłowe\Pociski</Filter>
+    </ClCompile>
+    <ClCompile Include="RodzajPoziomu.cpp">
+      <Filter>Pliki źródłowe\Stany</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangle.cpp">
+      <Filter>Pliki źródłowe\MojeFigury\Trojkaty</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexTriangle.cpp">
+      <Filter>Pliki źródłowe\MojeFigury\Trojkaty</Filter>
+    </ClCompile>
+    <ClCompile Include="Wave.cpp">
+      <Filter>Pliki źródłowe\Fala</Filter>
+    </ClCompile>
+    <ClCompile Include="TypWygladu.cpp">
+      <Filter>Pliki źródłowe\Wieza</Filter>
+    </ClCompile>
+    <ClCompile Include="Wieza.cpp">
+      <Filter>Pliki źródłowe\Wieza</Filter>
+    </ClCompile>
+    <ClCompile Include="ZwracanyTypPoziomu.cpp">
+      <Filter>Pliki źródłowe\Stany</Filter>
+    </ClCompile>
+    <ClCompile Include="Matematyka.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="OptimisedCirclePart.cpp">
+      <Filter>Pliki źródłowe\MojeFigury\Okragle</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

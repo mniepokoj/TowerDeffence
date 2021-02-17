@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AnimatedCircle.h" />
+    <ClInclude Include="AnimatedOutlineCircle.h" />
+    <ClInclude Include="AnimatedOutLineStruct.h" />
+    <ClInclude Include="Animation.h" />
+    <ClInclude Include="Collision.h" />
+    <ClInclude Include="CzerwonaWieza.h" />
+    <ClInclude Include="DefinicjePaskaWyboru.h" />
+    <ClInclude Include="ESC.h" />
+    <ClInclude Include="Gra.h" />
+    <ClInclude Include="IkonaWiezy.h" />
+    <ClInclude Include="KoniecPoziomu.h" />
+    <ClInclude Include="KrzyzykowePole.h" />
+    <ClInclude Include="Mapa.h" />
+    <ClInclude Include="Matematyka.h" />
+    <ClInclude Include="Minion.h" />
+    <ClInclude Include="MojeFigury.h" />
+    <ClInclude Include="NiebieskaWieza.h" />
+    <ClInclude Include="OkraglePole.h" />
+    <ClInclude Include="OptimisedCirclePart.h" />
+    <ClInclude Include="PasekWyboru.h" />
+    <ClInclude Include="PasekZycia.h" />
+    <ClInclude Include="Pocisk.h" />
+    <ClInclude Include="Pole.h" />
+    <ClInclude Include="PomaranczowaWieza.h" />
+    <ClInclude Include="ProstokatnePole.h" />
+    <ClInclude Include="RodzajPoziomu.h" />
+    <ClInclude Include="Statyczne.h" />
+    <ClInclude Include="StatyczneDzwieki.h" />
+    <ClInclude Include="StatyczneTekstury.h" />
+    <ClInclude Include="Triangle.h" />
+    <ClInclude Include="TypWygladu.h" />
+    <ClInclude Include="VertexTriangle.h" />
+    <ClInclude Include="Wave.h" />
+    <ClInclude Include="Wieza.h" />
+    <ClInclude Include="WyborWiez.h" />
+    <ClInclude Include="WybranaBudowa.h" />
+    <ClInclude Include="WybranaWieza.h" />
+    <ClInclude Include="WybranyStwor.h" />
+    <ClInclude Include="ZarzadcaDzwiekow.h" />
+    <ClInclude Include="ZarzadcaJedzenia.h" />
+    <ClInclude Include="ZarzadcaMapy.h" />
+    <ClInclude Include="ZarzadcaPlanszy.h" />
+    <ClInclude Include="ZarzadcaPociskow.h" />
+    <ClInclude Include="ZarzadcaPoziomu.h" />
+    <ClInclude Include="ZarzadcaStartu.h" />
+    <ClInclude Include="ZarzadcaStworow.h" />
+    <ClInclude Include="ZarzadcaWiez.h" />
+    <ClInclude Include="ZarzadcaWszystkiego.h" />
+    <ClInclude Include="ZarzadcaZdarzen.h" />
+    <ClInclude Include="ZielonaWieza.h" />
+    <ClInclude Include="ZoltaWieza.h" />
+    <ClInclude Include="ZwracanyTypPoziomu.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AnimatedCircle.cpp" />
+    <ClCompile Include="AnimatedOutlineCircle.cpp" />
+    <ClCompile Include="AnimatedOutLineStruct.cpp" />
+    <ClCompile Include="Animation.cpp" />
+    <ClCompile Include="Collision.cpp" />
+    <ClCompile Include="CzerwonaWieza.cpp" />
+    <ClCompile Include="ESC.cpp" />
+    <ClCompile Include="Gra.cpp" />
+    <ClCompile Include="IkonaWiezy.cpp" />
+    <ClCompile Include="KoniecPoziomu.cpp" />
+    <ClCompile Include="KrzyzykowePole.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Mapa.cpp" />
+    <ClCompile Include="Matematyka.cpp" />
+    <ClCompile Include="Minion.cpp" />
+    <ClCompile Include="NiebieskaWieza.cpp" />
+    <ClCompile Include="OkraglePole.cpp" />
+    <ClCompile Include="OptimisedCirclePart.cpp" />
+    <ClCompile Include="PasekWyboru.cpp" />
+    <ClCompile Include="PasekZycia.cpp" />
+    <ClCompile Include="Pocisk.cpp" />
+    <ClCompile Include="Pole.cpp" />
+    <ClCompile Include="PomaranczowaWieza.cpp" />
+    <ClCompile Include="ProstokatnePole.cpp" />
+    <ClCompile Include="RodzajPoziomu.cpp" />
+    <ClCompile Include="Statyczne.cpp" />
+    <ClCompile Include="StatyczneDzwieki.cpp" />
+    <ClCompile Include="StatyczneTekstury.cpp" />
+    <ClCompile Include="Triangle.cpp" />
+    <ClCompile Include="TypWygladu.cpp" />
+    <ClCompile Include="VertexTriangle.cpp" />
+    <ClCompile Include="Wave.cpp" />
+    <ClCompile Include="Wieza.cpp" />
+    <ClCompile Include="WyborWiez.cpp" />
+    <ClCompile Include="WybranaBudowa.cpp" />
+    <ClCompile Include="WybranaWieza.cpp" />
+    <ClCompile Include="WybranyStwor.cpp" />
+    <ClCompile Include="ZarzadcaDzwiekow.cpp" />
+    <ClCompile Include="ZarzadcaJedzenia.cpp" />
+    <ClCompile Include="ZarzadcaMapy.cpp" />
+    <ClCompile Include="ZarzadcaPlanszy.cpp" />
+    <ClCompile Include="ZarzadcaPociskow.cpp" />
+    <ClCompile Include="ZarzadcaPoziomu.cpp" />
+    <ClCompile Include="ZarzadcaStartu.cpp" />
+    <ClCompile Include="ZarzadcaStworow.cpp" />
+    <ClCompile Include="ZarzadcaWiez.cpp" />
+    <ClCompile Include="ZarzadcaWszystkiego.cpp" />
+    <ClCompile Include="ZarzadcaZdarzen.cpp" />
+    <ClCompile Include="ZielonaWieza.cpp" />
+    <ClCompile Include="ZoltaWieza.cpp" />
+    <ClCompile Include="ZwracanyTypPoziomu.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{4F3120F5-F8DB-4A21-A30F-0BA9C1143E83}</ProjectGuid>
+    <RootNamespace>TowerDeffence</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level2</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>P:\SFML\SFML-2.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>P:\SFML\SFML-2.5.1\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-graphics-d.lib;sfml-window-d.lib;sfml-audio-d.lib;sfml-system-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>P:\SFML\SFML-2.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>sfml-graphics-d.lib;sfml-window-d.lib;sfml-system-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>P:\SFML\SFML-2.5.1\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>P:\SFML\SFML-2.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>sfml-graphics.lib;sfml-window.lib;sfml-audio.lib;sfml-system.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>P:\SFML\SFML-2.5.1\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>P:\SFML\SFML-2.5.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>sfml-graphics.lib;sfml-window.lib;sfml-system.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>P:\SFML\SFML-2.5.1\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
