@@ -2,7 +2,7 @@
 
 KrzyzykowePole::KrzyzykowePole(const sf::Vector2f& pozycja, const std::wstring& Napis, const sf::Color& kolorPola, const sf::Vector2f& rozmiarPola, unsigned rozmiarCzionki) : Pole()
 {
-	float rozmiarKola = sqrt(pow(rozmiarPola.x, 2) + pow(rozmiarPola.y, 2)) / 20.f;
+	float rozmiarKola = vector_length(rozmiarPola) / 20.f;
 
 	///////////
 	pion.setSize(sf::Vector2f(rozmiarPola.x - rozmiarKola * 2.f, rozmiarPola.y));
@@ -31,7 +31,7 @@ KrzyzykowePole::KrzyzykowePole(const sf::Vector2f& pozycja, const std::wstring& 
 ///do dziedziczenia
 KrzyzykowePole::KrzyzykowePole(const sf::Vector2f& pozycja, const std::wstring& Napis, const sf::Color& kolorPola, const sf::Vector2f& rozmiarPola, unsigned rozmiarCzionki, float& rozmiarKola) : Pole()
 {
-	rozmiarKola = sqrt(pow(rozmiarPola.x, 2) + pow(rozmiarPola.y, 2)) / 20.f;
+	rozmiarKola = vector_length(rozmiarPola) / 20.f;
 	///////////
 	pion.setSize(sf::Vector2f(rozmiarPola.x - rozmiarKola * 2.f, rozmiarPola.y));
 	poziom.setSize(sf::Vector2f(rozmiarPola.x, rozmiarPola.y - rozmiarKola * 2.f));
@@ -69,7 +69,7 @@ bool KrzyzykowePole::CzyZawieranie(const sf::Vector2f& mysz) const
 void KrzyzykowePole::ZmienRozmiarPola(const sf::Vector2f& rozmiarPola, unsigned rozmiarCzcionki, bool CzyPowiekszenie)
 {
 	czyPowiekszenie = CzyPowiekszenie;
-	float rozmiarKola = sqrt(pow(rozmiarPola.x, 2) + pow(rozmiarPola.y, 2)) / 20.f;
+	float rozmiarKola = vector_length(rozmiarPola) / 20.f;
 
 	napis.setCharacterSize(rozmiarCzcionki);
 	napis.setOrigin(napis.getGlobalBounds().width / 2.f, napis.getGlobalBounds().height / 2.f + napis.getCharacterSize() / 4.f);

@@ -11,11 +11,6 @@ constexpr float ogromnaPredkosc = 200.f;
 
 ////////////////////////////////////////////////////
 
-float dlugosc(sf::Vector2f& wektor)
-{
-	return sqrt(pow(wektor.x, 2) + pow(wektor.y, 2));
-}
-
 std::vector<float> Minion::SzablonDrogiDoPrzebycia;
 
 void Minion::UstawMape(Mapa* mapaa)
@@ -495,7 +490,7 @@ void Minion::WyznaczPredkosc()
 
 void Minion::WyznaczDrogeDoPrzebycia()
 {
-	drogaDoPrzebycia = dlugosc(docelowo[aktualnyCel]);
+	drogaDoPrzebycia = vector_length(docelowo[aktualnyCel]);
 }
 
 void Minion::WyznaczKurs()

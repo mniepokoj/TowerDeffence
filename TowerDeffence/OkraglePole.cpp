@@ -40,7 +40,7 @@ void OkraglePole::ZmienRozmiarPola(const sf::Vector2f& rozmiarPola, unsigned roz
 {
 	czyPowiekszenie = czy_powiekszenie;
 
-	float rozmiarKola = sqrt(pow(rozmiarPola.x, 2) + pow(rozmiarPola.y, 2)) / 20.f;
+	float rozmiarKola = vector_length(rozmiarPola) / 20.f;
 
 	napis.setCharacterSize(rozmiarCzcionki);
 	napis.setOrigin(napis.getGlobalBounds().width / 2, napis.getGlobalBounds().height / 2 + napis.getCharacterSize() / 4);
