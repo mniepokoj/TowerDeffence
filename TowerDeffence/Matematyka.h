@@ -27,6 +27,17 @@ public:
 };
 
 
+inline float vector_length(float x, float y)
+{
+	return sqrt(x * x + y * y);
+}
+
+inline float vector_length(const sf::Vector2f& v)
+{
+	return sqrtf(v.x * v.x + v.y * v.y);
+}
+
+
 template<typename type> inline float to_rad(type radian)
 {
 	return radian * PI_180;
@@ -37,10 +48,9 @@ template<typename type> inline float to_angle(type radian)
 	return radian * PI1_180;
 }
 
-inline void normaliseVector(sf::Vector2f& wector)
+inline void normaliseVector(sf::Vector2f& vector)
 {
-	float lenght = sqrtf(wector.x * wector.x + wector.y * wector.y);
-	wector /= lenght;
+	vector /= vector_length(vector);
 }
 
 float normaliseRad(float rad);
