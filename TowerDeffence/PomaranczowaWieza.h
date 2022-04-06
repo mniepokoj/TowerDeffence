@@ -4,6 +4,8 @@
 
 constexpr size_t lbTrojkatow = 5;
 
+
+//still in testing
 class PomaranczowaWieza : public Wieza 
 {
 	void Level1();

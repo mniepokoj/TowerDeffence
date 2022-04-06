@@ -8,7 +8,7 @@
 #include "TypWygladu.h"
 
 
-constexpr unsigned lbWiez = 5;
+constexpr unsigned lbWiez = 4;
 
 enum class TYP_WIEZY { NIEBIESKA = 0, ZOLTA = 1, ZIELONA = 2, CZERWONA = 3, POMARANCZOWA = 4, ZADEN = -1 };
 

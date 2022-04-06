@@ -5,7 +5,7 @@
 
 using namespace sf;
 
-
+//class for drawing triangle
 class VertexTriangle : public sf::Drawable
 {
 private:

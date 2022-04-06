@@ -46,7 +46,9 @@ TYP_POZIOMU RodzajPoziomu::Zarzadzaj(sf::Event& zdarzenie, sf::Vector2f& mysz)
 	{
 		if (klikniecie)
 		{
-			return TYP_POZIOMU::SZYBKI;
+			std::cout << "Fast mode is not currently supported! Normal mode selected instead."<<std::endl;
+			return TYP_POZIOMU::NORMALNY;
+			//return TYP_POZIOMU::SZYBKI;
 		}
 		if (!szybki->CzyPowiekszenie())
 		{

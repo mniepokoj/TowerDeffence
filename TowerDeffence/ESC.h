@@ -12,13 +12,9 @@ class Esc : public sf::Drawable
 {
 protected:
 	Pole* menu;
-
 	Pole* wznow;
-
 	Pole* wyjdz;
-
 	Pole* powtorz;
-
 	sf::RectangleShape zaciemnienie;
 	sf::RectangleShape obwod;
 	sf::RectangleShape tablica;

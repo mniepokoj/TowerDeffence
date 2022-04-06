@@ -32,9 +32,12 @@ WyborWiez::WyborWiez()
 	ikonaWiezy[++i].UstawTypWiezy(TYP_WIEZY::CZERWONA);
 	ikonaWiezy[i].UstawRozmiar(rozmiarIkon);
 	ikonaWiezy[i].UstawPozycje(srodekMarginesu, 210);
+
+	/*
 	ikonaWiezy[++i].UstawTypWiezy(TYP_WIEZY::POMARANCZOWA);
 	ikonaWiezy[i].UstawRozmiar(rozmiarIkon);
 	ikonaWiezy[i].UstawPozycje(srodekMarginesu, 271);
+	*/
 }
 
 void WyborWiez::draw(sf::RenderTarget& target, sf::RenderStates states) const

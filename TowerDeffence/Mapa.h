@@ -7,6 +7,7 @@
 
 using std::vector;
 
+//Strony swiata
 enum class STR_SW	{ N , E , S , W , Brak  };
 
 class Mapa : public sf::Drawable
@@ -14,6 +15,8 @@ class Mapa : public sf::Drawable
 private:
 	void ObliczKaty(std::vector <float>& katy, const std::vector <sf::Vector2f>& wspolrzedne);
 	void SprawdzZmianeStrony(std::vector <bool>& czyPrawo, std::vector <float>& katy);
+	//Pobiera dane w pliku tekstowego "zbiorLini.txt" i na ich podstawie tworzy wektor RectangleSchape
+	//Pobiera tylka katy proste
 	void StworzPrastakaty(const vector<sf::Vector2f>& wspolrzedne,vector<float>& katy,vector<bool>CzyPrawa,vector<bool>& CzyZmiana,vector<STR_SW>& strony);
 	void Polnoc(const sf::Vector2f& temp1, const sf::Vector2f& temp2, sf::RectangleShape& prastakat, STR_SW stronaPrzed, STR_SW stronaPo, float rozmiarLinii);
 	void Poludnie(const sf::Vector2f& temp1,const sf::Vector2f& temp2, sf::RectangleShape& prastakat, STR_SW stronaPrzed, STR_SW stronaPo, float rozmiarLinii);

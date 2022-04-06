@@ -1,6 +1,4 @@
 #pragma once
-#ifndef GRA_H
-#define GRA_H
 
 #include <SFML/Graphics.hpp>
 #include "ZarzadcaWszystkiego.h"
@@ -20,5 +18,3 @@ public:
 	void Dzialaj();
 	~Gra();
 };
-
-#endif // !GRA_H

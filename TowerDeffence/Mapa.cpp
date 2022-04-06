@@ -1,8 +1,6 @@
 #include "Mapa.h"
 
 
-//Pobiera dane w pliku tekstowego "zbiorLini.txt" i na ich podstawie tworzy wektor RectangleSchape
-//Konstruktor pobiera tylka katy proste
 
 using std::vector;
 

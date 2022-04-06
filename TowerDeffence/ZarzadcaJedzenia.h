@@ -22,6 +22,8 @@ namespace jedzenie
 	
 }
 
+//not finished class 
+//in the testing phase
 class ZarzadcaJedzenia : public sf::Drawable
 {
 private:

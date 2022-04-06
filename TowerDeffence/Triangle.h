@@ -2,6 +2,9 @@
 
 #include "VertexTriangle.h"
 
+/// <summary>
+/// class for drawing animated triangles 
+/// </summary>
 class Triangle : public VertexTriangle
 {
 	float radius;
